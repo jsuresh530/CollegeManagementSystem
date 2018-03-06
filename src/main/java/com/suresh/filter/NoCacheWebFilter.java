@@ -22,13 +22,13 @@ import com.suresh.controller.LogoutServlet;
  */
 //@WebFilter("*.jsp")
 //@WebFilter("/*")
-public class NoCacheFilter implements Filter {
+public class NoCacheWebFilter implements Filter {
 	private static final Logger	logger		= LoggerFactory.getLogger(LogoutServlet.class);
 
     /**
      * Default constructor. 
      */
-    public NoCacheFilter() {
+    public NoCacheWebFilter() {
         // TODO Auto-generated constructor stub
     }
 
